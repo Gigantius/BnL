@@ -1,0 +1,27 @@
+# Залежності
+node_modules/
+vendor/
+
+# Результати збірки
+dist/
+build/
+
+# Налаштування середовища та паролі
+.env
+.env.*
+!.env.example
+config.local.php
+
+# Фото, завантажені користувачами
+src/uploads/
+
+# Логи й тимчасові файли
+*.log
+*.tmp
+.cache/
+
+# IDE та операційна система
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
